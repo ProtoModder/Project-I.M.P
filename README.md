@@ -25,8 +25,6 @@ Our ultimate goal is to create a modders' haven, where innovation meets accessib
 ## **Completed Tasks**
 
 - **BTT SKR Pico and Pi Zero 2 Deployment:** Successfully deployed this hardware configuration, significantly expanding the printer’s capabilities.
- ![Pi Zero 2 UART Configuration](https://github.com/ProtoModder/Project-Imp/blob/main/images/Pi_zero_2_uart.jpg?raw=true)
-
 - **Basic Mechanical Modifications:** Initial tweaks tested to improve print quality and performance.
 - **Preliminary Firmware Exploration:** Initial testing with Klipper firmware to assess compatibility and functionality.
 
