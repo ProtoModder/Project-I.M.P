@@ -1,0 +1,16 @@
+; Turn off all heaters (only M104 is relevant, but Toybox has no heated bed or chamber)
+M104 S0 ; Turn off hotend
+
+; Retract filament slightly to prevent oozing
+G1 E-3 F1800
+
+; Set relative positioning for Z-axis movement
+G91
+G0 Z5 F600 ; Lift Z by 5 mm to avoid dragging
+
+; Return to absolute positioning
+G90
+G0 X0 Y0 F12000 ; Move to home position (front-left corner)
+
+; Conditional Z-axis movement for clearance
+{if max_layer_z < 45}G1 Z55 F600{else}G1 Z{min(90, max_layer_z + 3)} F600{endif} ; Adjusted for Toybox's max Z height of 90 mm

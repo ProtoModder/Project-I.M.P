@@ -1,0 +1,46 @@
+; Custom Print Start G-code for Toybox Alpha in OrcaSlicer
+
+; Set the hotend to the desired temperature
+M104 S[first_layer_temperature] ; Set hotend temperature to the first layer temperature
+M140 S0 ; Ensure bed temperature is off (no heated bed)
+
+; Home all axes
+G28 ; Home all axes (X, Y, Z)
+
+; Raise Z-axis after homing to prevent nozzle contact with the bed
+G91 ; Set relative positioning
+G0 Z5 F600 ; Raise Z by 5mm to create a gap
+G90 ; Set back to absolute positioning
+
+; Wait for the hotend to reach the target temperature
+M109 S[first_layer_temperature] ; Wait for hotend temperature
+
+; Set extruder to relative mode
+M83
+
+; Pause for stabilization
+G4 P3000
+
+; Move to start position near the front-left corner safely within range
+G0 X10 Y10 Z5 F6000 ; Move to safe start position
+
+; Lower to first layer height
+G0 Z[first_layer_height] F600
+
+; Prime the nozzle by extruding a small amount
+G1 E3 F1800
+
+; Print initial line to prime extruder and ensure flow
+G1 X60 E{30 * first_layer_height * 0.4} F3000 ; Ensure X stays within 70mm
+G1 Y12 E{2 * first_layer_height * 0.4} F3000 ; Ensure Y stays within 80mm
+G1 X10 E{30 * first_layer_height * 0.4} F3000
+G1 Y70 E{58 * first_layer_height * 0.4} F3000 ; Ensure Y stays within 80mm
+G1 X12 E{2 * first_layer_height * 0.4} F3000
+G1 Y15 E{58 * first_layer_height * 0.4} F3000 ; Ensure Y stays within 80mm
+G1 X15 Z0
+
+; Move to the next starting position safely within range
+G1 X20
+G1 Z1 F600
+
+; Start print
