@@ -1,3 +1,4 @@
+
 # **Project: Imp**
 
 **Initial Modding Platform**
@@ -66,10 +67,21 @@ git clone https://github.com/ProtoRiot/Project-Imp.git
 - **Firmware Testing:** Actively experimenting with alternative firmware options for enhanced performance.
 - **Mechanical Adjustments:** Testing small upgrades to improve print quality and efficiency, applicable to both V1 and V2 models.
 
+---
+
+## **Wiki Resources**
+
+Our [Wiki](https://github.com/ProtoRiot/Project-Imp/wiki) contains extensive documentation on key topics, including:
+
+- **[Stock Slicer Settings](https://github.com/ProtoRiot/Project-Imp/wiki/stock%E2%80%90slicer%E2%80%90settings):** Learn about the default slicing parameters for the Toybox Alpha.
+- **[EEPROM and Klipper Settings](https://github.com/ProtoRiot/Project-Imp/wiki/EEPROM-and-Klipper-Settings):** Detailed information on EEPROM configurations and their Klipper equivalents.
+- **Additional Guides:** Hardware modifications, firmware exploration, and more.
+
+Visit the Wiki to dive deeper into the technical details and expand your understanding of the project.
 
 ---
 
-## **Collaboration and AI Assistance**
+## 🤝 **Collaboration and AI Assistance**
 
 This project thrives on collaboration and innovation. AI tools support brainstorming, troubleshooting, and refining solutions, making **Project: Imp** a unique blend of human ingenuity and cutting-edge technology.
 
