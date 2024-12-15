@@ -73,7 +73,7 @@ git clone https://github.com/ProtoRiot/Project-Imp.git
 
 Our [Wiki](https://github.com/ProtoRiot/Project-Imp/wiki) contains extensive documentation on key topics, including:
 
-- **[Stock Slicer Settings](https://github.com/ProtoModder/Project-Imp/wiki/stock-slicer-settings):** Learn about the default slicing parameters for the Toybox Alpha.
+- **[Stock Slicer Settings](https://github.com/ProtoModder/Project-Imp/wiki/stock‐slicer‐settings):** Learn about the default slicing parameters for the Toybox Alpha.
 - **[EEPROM and Klipper Settings](https://github.com/ProtoModder/Project-Imp/wiki/eeprom-and-klipper-settings):** Detailed information on EEPROM configurations and their Klipper equivalents.
 - **Additional Guides:** Hardware modifications, firmware exploration, and more.
 
