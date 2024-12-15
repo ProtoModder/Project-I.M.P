@@ -28,7 +28,6 @@ We are currently exploring:
 - **Getting Klipper Running on Stock Hardware:** Further investigation is underway to adapt Klipper to the Toybox Alpha’s original electronics for broader accessibility.
 - **Generic Marlin Profile Development:** Efforts are being made to create a versatile Marlin configuration for users preferring the classic firmware experience.
 - **Understanding the Toybox Alpha V1’s limitations:** Identifying areas for improvement and modification.
-- **Firmware Exploration:** Investigating alternatives like Klipper for the ESP12 controller and STM32F103.
 - **Mechanical Modifications:** Testing tweaks to enhance performance, compatible with both V1 and V2 models.
 
 ---
