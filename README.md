@@ -80,6 +80,15 @@ Our [Wiki](https://github.com/ProtoRiot/Project-Imp/wiki) contains extensive doc
 Visit the Wiki to dive deeper into the technical details and expand your understanding of the project.
 
 ---
+## **Resources**
+
+Here are the repositories being used for this project:
+
+- [MKS-Robin-Nano-V1.X](https://github.com/ProtoModder/MKS-Robin-Nano-V1.X): For Marlin firmware on the stock board.
+- [MKS-TFT24-Firmware](https://github.com/ProtoModder/MKS-TFT24-Firmware): For the OEM screen firmware.
+- [MKS-TFT-Hardware](https://github.com/ProtoModder/MKS-TFT-Hardware): Related to the TFT hardware.
+- [MKS-TFT](https://github.com/ProtoModder/MKS-TFT): General repository for MKS TFT resources.
+---
 
 ## 🤝 **Collaboration and AI Assistance**
 
