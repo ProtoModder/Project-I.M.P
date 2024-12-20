@@ -1,4 +1,3 @@
-
 # **Project: Imp**
 
 **Initial Modding Platform**
@@ -7,108 +6,47 @@
 
 ## **Introduction**
 
-Welcome to **Project: Imp**, an innovative open-source initiative dedicated to enhancing the Toybox Alpha V1 3D Printer. This project documents step-by-step explorations of hardware and firmware modifications, turning this small but capable printer into a versatile platform for creative experimentation and advanced customization.
+Welcome to **Project: Imp**, an open-source initiative to transform the Toybox Alpha V1 3D Printer into a versatile modding platform. This project explores hardware and firmware modifications to unlock the printer's full potential, empowering modders and tinkerers alike.  
 
-Designed for experienced users and tinkerers, **Project: Imp** focuses on unlocking the full potential of the Toybox Alpha V1. While the primary target is the V1 electronics—featuring an ESP12 controller and an STM32F103—the V1 and V2 models share the same mechanical structure, making most modifications compatible across versions.
-
-Our ultimate goal is to create a modders' haven, where innovation meets accessibility. This repository combines practical knowledge and AI-driven insights to help users push boundaries and explore new possibilities.
+For an easier-to-digest and detailed breakdown of the project, visit the **[Wiki](https://github.com/ProtoRiot/Project-Imp/wiki)**.
 
 ---
 
-## **Disclaimer**
+## **Why Project: Imp?**
 
-**Caution:** Modifying your 3D printer may void warranties and poses potential risks to your hardware. This project is tailored for experienced users who are comfortable with troubleshooting and problem-solving. **Proceed at your own discretion.**
-
-**Project: Imp** is an advanced modding platform; it is not designed as a beginner's guide to 3D printing.
-
----
-
-## **Completed Tasks**
-
-- **BTT SKR Pico and Pi Zero 2 Deployment:** Successfully deployed this hardware configuration, significantly expanding the printer’s capabilities.
-- **Basic Mechanical Modifications:** Initial tweaks tested to improve print quality and performance.
-- **Preliminary Firmware Exploration:** Initial testing with Klipper firmware to assess compatibility and functionality.
-
----
-
-## **To-Do List**
-
-- **Get Klipper Running on Stock Hardware:** Investigate and adapt Klipper firmware to operate seamlessly on the Toybox Alpha’s original electronics.
-- **Develop a Generic Marlin Profile:** Create a versatile Marlin firmware configuration tailored for users who prefer this option.
-- **Expand Mechanical Modifications:** Experiment with additional tweaks to optimize speed, reliability, and print quality.
-- **Document Full Workflow:** Provide clear, detailed guides for replicating successful modifications.
+- 🚀 Unlock advanced features with custom firmware and hardware mods.  
+- 🛠️ Make the Toybox Alpha V1 a modder's dream while retaining compatibility with the V2's shared mechanical structure.  
+- 🌐 Build a community-driven resource for innovation and exploration.  
 
 ---
 
 ## **Getting Started**
 
-### **Prerequisites**
-
-To follow along, you’ll need:
-
-- **Basic Tools:** Screwdrivers, pliers, and other small tools for assembly/disassembly.
-- **Software:** CAD tools (e.g., Fusion 360) and 3D printing software.
-- **Filament:** Suitable materials for testing and prototyping.
-
-### **Clone the Repository**
-
-Start by cloning this repository:
-
-```bash
-git clone https://github.com/ProtoRiot/Project-Imp.git
-```
-
----
-
-## **Usage**
-
-### **Current Exploration**
-
-- **Firmware Testing:** Actively experimenting with alternative firmware options for enhanced performance.
-- **Mechanical Adjustments:** Testing small upgrades to improve print quality and efficiency, applicable to both V1 and V2 models.
-
----
-
-## **Wiki Resources**
-
-Our [Wiki](https://github.com/ProtoRiot/Project-Imp/wiki) contains extensive documentation on key topics, including:
-
-- **[Stock Slicer Settings](https://github.com/ProtoModder/Project-Imp/wiki/stock‐slicer‐settings):** Learn about the default slicing parameters for the Toybox Alpha.
-- **[EEPROM and Klipper Settings](https://github.com/ProtoModder/Project-Imp/wiki/eeprom%E2%80%90and%E2%80%90klipper%E2%80%90settings):** Detailed information on EEPROM configurations and their Klipper equivalents.
-- **Additional Guides:** Hardware modifications, firmware exploration, and more.
-
-Visit the Wiki to dive deeper into the technical details and expand your understanding of the project.
-
----
-## **Resources**
-
-Here are the repositories being used for this project:
-
-- [MKS-Robin-Nano-V1.X](https://github.com/ProtoModder/MKS-Robin-Nano-V1.X): For Marlin firmware on the stock board.
-- [MKS-TFT24-Firmware](https://github.com/ProtoModder/MKS-TFT24-Firmware): For the OEM screen firmware.
-- [MKS-TFT-Hardware](https://github.com/ProtoModder/MKS-TFT-Hardware): Related to the TFT hardware.
-- [MKS-TFT](https://github.com/ProtoModder/MKS-TFT): General repository for MKS TFT resources.
----
-
-## 🤝 **Collaboration and AI Assistance**
-
-This project thrives on collaboration and innovation. AI tools support brainstorming, troubleshooting, and refining solutions, making **Project: Imp** a unique blend of human ingenuity and cutting-edge technology.
-
----
-
-## **Contributing**
-
-We welcome contributions! If you have ideas, want to test modifications, or provide feedback, feel free to fork the repository, submit pull requests, or open issues for discussion.
-
----
-
-## **License**
-
-This project is licensed under the GPL v3.0 License. See the `LICENSE.md` file for details.
+### 🔧 **First Steps**
+1. Visit the **[Wiki](https://github.com/ProtoRiot/Project-Imp/wiki)** for detailed guides and technical documentation.  
+2. Check out the **[Jailbreak Mod](https://github.com/ProtoRiot/Project-Imp/wiki/Toybox-Alpha-Jail-Break-Mod)** to get started with advanced slicing options like OctoPrint and OrcaSlicer.  
+3. Explore our resources and repositories to learn more about the hardware and firmware used in this project.
 
 ---
 
 ## **Acknowledgments**
 
-- **AI Assistance:** Special thanks to AI tools for supporting this journey into advanced modding.
-- **Community Support:** Gratitude to the 3D printing and maker communities for continuous inspiration and support.
+A special thanks to **[tuorum](https://github.com/tuorum/Toybox-3D-Printer-Info)** for their foundational work on the Toybox 3D Printer, which inspired this pursuit.  
+
+Additionally, this project is made possible by contributions from the 3D printing community and AI-powered brainstorming.  
+
+---
+
+## **Get Involved**
+
+We welcome contributions and collaboration! Check out the **[Issues](https://github.com/ProtoRiot/Project-Imp/issues)** or **[Pull Requests](https://github.com/ProtoRiot/Project-Imp/pulls)** to join the development.  
+
+---
+
+## **License**
+
+This project is licensed under the **GPL v3.0 License**. See the `LICENSE.md` file for more details.  
+
+---
+
+Ready to dive in? Head over to the **[Wiki](https://github.com/ProtoRiot/Project-Imp/wiki)** and start your modding journey! 🚀
