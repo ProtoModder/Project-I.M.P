@@ -1,4 +1,4 @@
-# **Project: Imp**
+# **Project: I.M.P**
 
 **Initial Modding Platform**
 
@@ -6,13 +6,13 @@
 
 ## **Introduction**
 
-Welcome to **Project: Imp**, an open-source initiative to transform the Toybox Alpha V1 3D Printer into a versatile modding platform. This project explores hardware and firmware modifications to unlock the printer's full potential, empowering modders and tinkerers alike.  
+Welcome to **Project: I.M.P**, an open-source initiative to transform the Toybox Alpha V1 3D Printer into a versatile modding platform. This project explores hardware and firmware modifications to unlock the printer's full potential, empowering modders and tinkerers alike.  
 
 For an easier-to-digest and detailed breakdown of the project, visit the **[Wiki](https://github.com/ProtoModder/Project-Imp/wiki)**.
 
 ---
 
-## **Why Project: Imp?**
+## **Why Project: I.M.P?**
 
 - 🚀 Unlock advanced features with custom firmware and hardware mods.  
 - 🛠️ Make the Toybox Alpha V1 a modder's dream while retaining compatibility with the V2's shared mechanical structure.  
@@ -49,4 +49,4 @@ This project is licensed under the **GPL v3.0 License**. See the `LICENSE.md` fi
 
 ---
 
-Ready to dive in? Head over to the **[Wiki](https://github.com/ProtoRiot/Project-Imp/wiki)** and start your modding journey! 🚀
+Ready to dive in? Head over to the **[Wiki](https://github.com/ProtoModder/Project-Imp/wiki)** and start your modding journey! 🚀
