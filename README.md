@@ -8,7 +8,7 @@
 
 Welcome to **Project: Imp**, an open-source initiative to transform the Toybox Alpha V1 3D Printer into a versatile modding platform. This project explores hardware and firmware modifications to unlock the printer's full potential, empowering modders and tinkerers alike.  
 
-For an easier-to-digest and detailed breakdown of the project, visit the **[Wiki](https://github.com/ProtoRiot/Project-Imp/wiki)**.
+For an easier-to-digest and detailed breakdown of the project, visit the **[Wiki](https://github.com/ProtoModder/Project-Imp/wiki)**.
 
 ---
 
@@ -23,8 +23,8 @@ For an easier-to-digest and detailed breakdown of the project, visit the **[Wiki
 ## **Getting Started**
 
 ### 🔧 **First Steps**
-1. Visit the **[Wiki](https://github.com/ProtoRiot/Project-Imp/wiki)** for detailed guides and technical documentation.  
-2. Check out the **[Jailbreak Mod](https://github.com/ProtoRiot/Project-Imp/wiki/Toybox-Alpha-Jail-Break-Mod)** to get started with advanced slicing options like OctoPrint and OrcaSlicer.  
+1. Visit the **[Wiki](https://github.com/ProtoModder/Project-Imp/wiki)** for detailed guides and technical documentation.  
+2. Check out the **[Jailbreak Mod](https://github.com/ProtoModder/Project-Imp/wiki/Toybox-Alpha-Jail-Break-Mod)** to get started with advanced slicing options like OctoPrint and OrcaSlicer.  
 3. Explore our resources and repositories to learn more about the hardware and firmware used in this project.
 
 ---
@@ -39,7 +39,7 @@ Additionally, this project is made possible by contributions from the 3D printin
 
 ## **Get Involved**
 
-We welcome contributions and collaboration! Check out the **[Issues](https://github.com/ProtoRiot/Project-Imp/issues)** or **[Pull Requests](https://github.com/ProtoRiot/Project-Imp/pulls)** to join the development.  
+We welcome contributions and collaboration! Check out the **[Issues](https://github.com/ProtoModder/Project-Imp/issues)** or **[Pull Requests](https://github.com/ProtoModder/Project-Imp/pulls)** to join the development.  
 
 ---
 
