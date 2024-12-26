@@ -3,6 +3,8 @@
 ## 📖 Overview
 This repository contains **Marlin firmware configuration files** (`Configuration.h` and `Configuration_adv.h`) tailored for the **MKS Robin Nano V1** mainboard, commonly used in Toybox Alpha 3D printers. Developed by **Tuorum**, these configurations optimize hardware performance and enable advanced features.
 
+**Note:** This firmware was developed and tested on a **Toybox Alpha model featuring the GD32F303VET6 processor**. Current retail versions of the Toybox Alpha may use the **STM32F303VET6 processor**, and compatibility may vary. Please verify your mainboard processor version before flashing.
+
 ---
 
 ## 🛠️ Key Features
@@ -45,9 +47,15 @@ This repository contains **Marlin firmware configuration files** (`Configuration
 
 ## 💡 Tips & Troubleshooting
 - Backup your firmware before flashing.
-- Verify your printer supports SD card flashing.
+- Verify your mainboard processor (STM32F303VET6) before flashing.
 - If flashing via SD card fails, use the USB method as a fallback.
 - Check the `Robin_nano35.cur` file to confirm successful firmware flashing.
+
+---
+
+## ⚠️ **Processor Compatibility Warning**
+- **GD32F303VET6:** Fully tested and confirmed working.
+- **STM32F303VET6:** Compatibility not fully verified. Flash at your own risk and report any issues to the community.
 
 ---
 
@@ -66,5 +74,3 @@ This repository contains **Marlin firmware configuration files** (`Configuration
 - [MKS Robin Nano V1 Details](https://reprap.org/wiki/MKS_Robin_Nano_V1.2)
 
 ---
-
-This README now includes accurate SD card flashing instructions with the correct filename and structure. Let me know if there’s anything else you’d like to tweak! 🚀
